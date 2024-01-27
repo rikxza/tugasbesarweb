@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" text="css" href="css/style.css">
+    <link rel="stylesheet" href="css/w3.css">
+</head>
+
+<script>
+    function OpenSpace(Galaksi) {
+        var i;
+        var x = document.getElementsByClassName("Space");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(Galaksi).style.display = "block";
+    }
+
+    function OpenSpace(Nebula) {
+        var i;
+        var x = document.getElementsByClassName("Space");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(Nebula).style.display = "block";
+    }
+
+    function OpenSpace(Hole) {
+        var i;
+        var x = document.getElementsByClassName("Space");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(Hole).style.display = "block";
+    }
+    function OpenSpace(Profile) {
+        var i;
+        var x = document.getElementsByClassName("Space");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(Profile).style.display = "block";
+    }
+</script>
+<body>
+<table border="0" align="Left" style="width: 30%;">
+    <br>
+    <tr>
+        <td>
+            <div class="w3-bar w3-center">
+                <h2 style="font-family: optima; color: white;">
+                    <b>IT'S ABOUT SPACE</h2></b>
+            </div>
+        </td>
+    </tr>
+</table>
+<table border="0" align="center" style=" display: none; width: 40;">
+    <tr>
+        <td>
+        </td>
+    </tr>
+</table>
+<table border="0" align="Right" style="width: 30%;">
+    <br>
+        <td>
+            <div class="w3-bar w3-center">
+                <button class="w3-bar-item w3-button" onclick="OpenSpace('Galaksi')" style="font-family: optima; color: white; width: 20%;">GALAXY</button>
+                <button class="w3-bar-item w3-button" onclick="OpenSpace('Nebula')" style="font-family: optima; color: white; width: 20%;">NEBULA</button>
+                <button class="w3-bar-item w3-button" onclick="OpenSpace('Hole')" style="font-family: optima; color: white; width: 30%;">BLACK HOLE</button>
+                <div class="w3-dropdown-hover">
+                    <button class="w3-button" style="font-family: optima; color: white; width: 100%;">ABOUT ME</button>
+                        <div class="w3-dropdown-content w3-bar-block w3-card-4 transparent">
+                            <button class="w3-bar-item w3-button" onclick="OpenSpace('Profile')" style="font-family: optima; color: white;">PROFILE</button>
+                            <button class="w3-bar-item w3-button" style="font-family: optima; color: white;"><a href="https://www.instagram.com/irdiaaannn/">INSTAGRAM</a></button>
+                        </div>
+                </div>
+            </div>
+        </td> 
+    </tr>
+</table>
+<br><br><br>
+    <hr>
+    <center>
+    <div id="Galaksi" class="Space" style="display: block;">
+        <table border="0" align="Left" style="width: 100%;">
+            <tr>
+                <td align="center" colspan="2">
+                    <div class="w3-panel w3-round-xxlarge w3-animate-right" style="width: 70%;">
+                        <div class="w3-container">
+                            <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;"><b>DEFINITION</b></h1>
+                        </div>
+                        <h3 style=" text-align: justify; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: white;">
+                            Galaksi 
+                            adalah sebuah sistem masif yang terikat gaya gravitasi yang terdiri atas bintang 
+                            (dengan segala bentuk manifestasinya, antara lain bintang neutron dan lubang hitam),
+                            gas dan debu medium antarbintang, dan materi gelap komponen yang penting namun belum begitu dimengerti. 
+                        </h3>
+                        <br>
+                        <hr style="width: 100%;">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table border="0"  style="width: 100%;" align="Left">
+            <tr>
+                <td align="center">
+                    <div class="w3-round-xxlarge w3-animate-zoom"  style="width: 400px;">
+                        <h1 style="color: white;">
+                            <b>MILKY WAY</b>
+                        </h1>
+                        <img class="w3-round-xxlarge" src="css/milky2.jpg" style="width: 320px;">
+                        <br><br>
+                    </div>
+                <br><hr>
+                </td>
+                <td align="center">
+                    <div class="w3-round-xxlarge w3-animate-zoom"  style="width: 500px;">
+                        <h1 style="color: white;">
+                            <b>SPIRAL</b>
+                        </h1>
+                        <img class="w3-round-xxlarge" src="css/spiral2.jpg" style="width: 320px;">
+                        <br><br>
+                    </div>
+                <br><hr>
+                </td>
+                <td align="center">
+                    <div class="w3-round-xxlarge w3-center">
+                        <div class="w3-round-xxlarge w3-animate-zoom"  style="width: 400px;">
+                            <h1 style="color: white;">
+                                <b>ANDROMEDA</b>
+                            </h1>
+                            <img class="w3-round-xxlarge" src="css/andro2.jpg" style="width: 320px;">
+                            <br><br> 
+                        </div>
+                    </div>
+                <br><hr>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <div class="w3-panel w3-round-xxlarge w3-center" style="width: 70%;">
+                        <h3 style=" text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: white;">
+                            Bima Sakti (bentuk yang sering digunakan oleh ahli astronomi[15][16])
+                            atau Bimasakti (bentuk baku menurut KBBI[17]) adalah galaksi spiral yang besar, 
+                            yang di dalamnya terdapat Tata Surya, tempat planet Bumi beredar mengelilingi matahari.
+                        </h3>
+                    </div>
+                </td>
+                <td align="center">
+                    <div class="w3-panel w3-round-xxlarge w3-center" style="width: 70%;">
+                        <h3 style=" text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: white;">
+                            Galaksi spiral merupakan tipe galaksi yang terdiri dari piringan galaksi yang rata dan berputar, 
+                            yang berisi bintang, medium antarbintang, dan pusat konsentrasi bintang-bintang di bagian tengah galaksi.
+                            
+                        </h3>
+                    </div>
+                </td>
+                <td align="center">
+                    <div class="w3-panel w3-round-xxlarge w3-center" style="width: 70%;">
+                        <h3 style=" text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: white;">
+                            Galaksi Andromeda (nama lain, Messier 31 dan NGC 224) adalah sebuah galaksi spiral yang erjarak kira-kira
+                            2,5 juta tahun cahaya dari bumi. Galaksi ini merupakan salah satu galaksi di luar galaksi Bima Sakti yang dapat 
+                            dilihat dengan mata telanjang pada malam yang cerah, tanpa bulan, dan tanpa polusi cahaya.
+                        </h3>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!-- NEBULA -->
+    <div id="Nebula" class="Space" style="display: none;">
+        <table border="0" align="Left" style="width: 100%;">
+            <tr>
+                <td align="center" rowspan="2">
+                    <div class="w3-round-xxlarge w3-animate-right" style="width: 70%;">
+                        <div class="w3-container">
+                            <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;"><b>DEFINITION</b></h1>
+                        </div>
+                        <h3 style="text-align: justify; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: white;">
+                            Nebula adalah awan yang terletak di antara bintang yang tersusun atas kumpulan debu, plasma, dan gas dengan kerapatan rendah. 
+                            Kerapatan tersebut bahkan lebih rendah dari kerapatan air.
+                            Dalam bahasa latin, nebula berasa dari kata "nebulae" yang artinya kabut. 
+                            Seingkali nebula juga disebut dengan galaksi. Nebula biasa terlihat saat terdapat bintang di sekitarnya. 
+                        </h3>
+                        <br><hr>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <br><br>
+        <table border="0"  style="width: 100%;" align="Left">
+            <tr>
+                <td align="center">
+                    <div class="w3-round-xxlarge w3-animate-zoom"  style="width: 400px;">
+                        <h1 style="color: white;">
+                            <b>CARINA NEBULA</b>
+                        </h1>
+                        <img class="w3-round-xxlarge" src="css/jamesweb.jpg" style="width: 320px;">
+                        <br><br>
+                    </div>
+                    <br><hr>
+                </td>
+                <td align="center">
+                    <div class="w3-round-xxlarge w3-animate-zoom"  style="width: 500px;">
+                        <h1 style="color: white;">
+                            <b>M16 EAGLE NEBULA</b>
+                        </h1>
+                        <img class="w3-round-xxlarge" src="css/m16eagle.jpg" style="width: 320px;">
+                        <br><br>
+                    </div>
+                    <br><hr>
+                </td>
+                <td align="center">
+                    <div class="w3-round-xxlarge w3-center">
+                        <div class="w3-round-xxlarge w3-animate-zoom"  style="width: 400px;">
+                            <h1 style="color: white;">
+                                <b>CAT EYE NEBULA</b>
+                            </h1>
+                            <img class="w3-round-xxlarge" src="css/cat.jpg" style="width: 320px;">
+                            <br><br> 
+                        </div>
+                    </div>
+                    <br><hr>
+                </td>
+            </tr>
+            <tr>
+                <td align="center">
+                    <div class="w3-panel w3-round-xxlarge w3-center" style="width: 70%;">
+                        <h3 style=" text-align:center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: white;">
+                            Nebula Carina (juga dikenal sebagai Nebula Raya di Carina, Nebula Eta Carinae, NGC 3372, serta Nebula Raya) 
+                            adalah nebula terang besar yang dalam batas-batasnya ada beberapa gugus terbuka dari bintang-bintang terdekat.
+                            Foto ini juga merupakan foto pertama yang telescope James Web tangkap 
+                        </h3>
+                    </div>
+                </td>
+                <td align="center">
+                    <div class="w3-panel w3-round-xxlarge w3-center" style="width: 70%;">
+                        <h3 style=" text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: white;">
+                            Galaksi spiral merupakan tipe galaksi yang terdiri dari piringan galaksi yang rata dan berputar, 
+                            yang berisi bintang, medium antarbintang, dan pusat konsentrasi bintang-bintang di bagian tengah galaksi.
+                            Messier 16 atau M16 atau sering disebut juga Nebula Elang atau NGC 6611 adalah sebuah gugus terbuka yang berada di rasi bintang Serpens,
+                            Namanya diambil dari bentuknya yang menyerupai Elang. 
+                            
+                        </h3>
+                    </div>
+                </td>
+                <td align="center">
+                    <div class="w3-panel w3-round-xxlarge w3-center" style="width: 70%;">
+                        <h3 style=" text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: white;">
+                            Nebula Mata Kucing (NGC 6543) adalah nebula pada rasi bintang Draco. 
+                            Struktur nebula ini merupakan salah satu struktur nebula paling kompleks yang pernah diketahui.
+                            Nebula ini ditemukan oleh William Herschel pada tanggal 15 Februari 1786.
+                            </h3>
+                     </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!-- Black Hole -->
+    <div id="Hole" class="Space" style="display: none;">
+        <table border="0" align="Left" style="width: 100%;">
+            <tr>
+                <td align="center" rowspan="2">
+                    <div class="w3-round-xxlarge w3-animate-right" style="width: 70%;">
+                        <div class="w3-container">
+                            <h1 style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: white;"><b>DEFINITION</b></h1>
+                        </div>
+                        <h3 style="text-align: justify; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: white;">
+                            Lubang hitam (bahasa Inggris: black hole) adalah bagian dari ruang waktu yang memiliki gravitasi paling kuat, 
+                            bahkan cahaya sekalipun tidak dapat menghindar. Teori relativitas umum memprediksi bahwa diperlukan massa yang besar untuk 
+                            menciptakan sebuah lubang hitam yang berada di ruang waktu. 
+                        </h3>
+                        <br><hr>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <br><br>
+        <table border="0"  style="width: 100%;" align="Left">
+            <tr>
+                <td align="center">
+                    <div class="w3-round-xxlarge w3-animate-zoom" style="width: 400px;">
+                        <h1 style="color: white;">
+                            <b>PHOENIX A</b>
+                        </h1>
+                        <img class="w3-round-xxlarge" src="css/phoenix a.jpg" style="width: 320px;">
+                        <br><br>
+                    </div>
+                    <br><hr>
+                </td>
+                <td align="center">
+                    <div class="w3-round-xxlarge w3-animate-zoom"  style="width: 500px;">
+                        <h1 style="color: white;">
+                            <b>TON 618</b>
+                        </h1>
+                        <img class="w3-round-xxlarge" src="css/ton 618.jpg" style="width: 320px;">
+                        <br><br>
+                    </div>
+                    <br><hr>
+                </td>
+                <td align="center">
+                    <div class="w3-round-xxlarge w3-center">
+                        <div class="w3-round-xxlarge w3-animate-zoom"  style="width: 400px;">
+                            <h1 style="color: white;">
+                                <b>SAGITTARIUS A</b>
+                            </h1>
+                            <img class="w3-round-xxlarge" src="css/alkavyrus.jpg" style="width: 320px;">
+                            <br><br> 
+                        </div>
+                    </div>
+                    <br><hr>
+                </td>x
+            </tr>
+            <tr>
+                <td align="center">
+                    <div class="w3-panel w3-round-xxlarge w3-center" style="width: 70%;">
+                        <h3 style=" text-align:center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: white;">
+                            Phoenix A* adalah lubang hitam ultramasif yang terletak di pusat galaksi Phoenix A, 
+                            lubang hitam Phoenix A* ini diketahui memiliki massa 100 miliar kali massa Matahari! Selain besar, 
+                            lubang hitam ini juga diyakini sebagai salah satu lubang hitam paling awal di alam semesta.
+                        </h3>
+                    </div>
+                </td>
+                <td align="center">
+                    <div class="w3-panel w3-round-xxlarge w3-center" style="width: 70%;">
+                        <h3 style=" text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: white;">
+                            TON 618 adalah sebuah kuasar sangat jauh dan sangat terang (secara teknis: kuasar radio-keras hiperluminosa, 
+                            garis serap-luas) yang terletak di dekat Kutub Utara Galaktik di konstelasi Canes Venatici. 
+                            Kuasar ini kemungkinan mengandung salah satu lubang hitam paling masif yang diketahui, 
+                            massanya mungkin sekitar 66 miliar kali massa matahari.
+                            
+                        </h3>
+                    </div>
+                </td>
+                <td align="center">
+                    <div class="w3-panel w3-round-xxlarge w3-center" style="width: 70%;">
+                        <h3 style=" text-align: center; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; color: white;">
+                            Sagittarius A adalah sebuah lubang hitam supermasif
+                            di Pusat Galaksi Bima Sakti. Sagittarius A terletak dekat perbatasan rasi bintang Sagittarius dan Scorpius, 
+                            kira-kira 5,6° selatan ekliptika, dan tampak dekat Gugus Kupu-kupu (M6) dan Shaula.
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <!-- ABOUT ME -->
+    <div id="Profile" class="Space" style="display: none;">
+        <table border="0" style="width: 100%;">
+            <tr>
+                <td align="center">
+                    <div class="w3-container w3-panel" style="width: 70%;">
+                        <img class="w3-round-xxlarge" src="css/ganteng.jpg" style="width: 150px;">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table border="0" style="width: 40%;">
+            <tr>
+                <td align="center" rowspan="2">
+                    <div class="w3-panel w3-round-xxlarge w3-blue-gray style="width: 100%;">
+                    <h4 class="text" style="text-align: justify; color: white;"> 
+                        I'm Rikza Danan Irdian you can just call me Danan
+                        I am an undergraduate student at the University of Computer Indonesia 
+                        (UNIKOM) with a keen interest in the vast world of outer space. I am always 
+                        fascinated by the mysteries of the universe, space exploration, and space technology.
+                        In addition to my passion for space, I enjoy spending my free time playing guitar. 
+                        Music is a way for me to relax and express my creativity. 
+                        Some of my favorite songs are inspired by themes related to outer space.
+                    </h4>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+
+</html>

@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(nasa-rTZW4f02zY8-unsplash.jpg);
+    font-family: sans-serif;
+    background-position:initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+}
+
+.transparent {
+    background-color: transparent !important;
+  }
+
+.text {
+    opacity: 100%
+}
